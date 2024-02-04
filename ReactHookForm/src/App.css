@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.form{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.formBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30rem;
+  width: 30rem;
+  background-color: rgb(218, 136, 136);
+  border-radius: 10px;
+  box-shadow: 10px 10px black;
+}
+
+.input{
+
+    width: 20rem;
+    height: 3rem;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button{
+
+  height: 3rem;
+  width: 7rem;
+}
+p{
+  color: red;
+}
